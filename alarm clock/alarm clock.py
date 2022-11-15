@@ -29,7 +29,8 @@ clock.title("DataFlair Alarm Clock")
 clock.geometry("400x200")
 time_format = Label(clock, text="Enter time in 24 hour format!",
                     fg="red", bg="black", font="Arial").place(x=60, y=120)
-addTime = Label(clock, text="Hour  Min   Sec", font=60).place(x=110)
+addTime = Label(clock, text="Hour  Min   Sec",
+                font=60).place(x=110)  # type: ignore
 setYourAlarm = Label(clock, text="When to wake you up", fg="blue",
                      relief="solid", font=("Helevetica", 7, "bold")).place(x=0, y=29)
 # The Variables we require to set the alarm(initialization):
