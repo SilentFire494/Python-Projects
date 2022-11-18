@@ -6,7 +6,7 @@ digits = "1234567890"
 symbols = "~`!@#$%^*()_-+=|}]{[;:/?.>,<"
 
 passLenth = input("Please enter a password length ")
-if passLenth.isnumeric(): # Why does this work
+if passLenth.isnumeric():
     passLenth = int(passLenth)
     firstPassword = upperCase + lowerCase + digits + symbols
     finalPassword = firstPassword
